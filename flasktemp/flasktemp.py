@@ -20,10 +20,11 @@ def main():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("server", help="specify address and port")
+    #parser.add_argument("server", help="specify address and port")
     parser.add_argument("refresh", help="specify refresh rate",
                         type=int)
     args = parser.parse_args()
-    app.config.update (
-       SERVER_NAME=args.server)
-    app.run()
+    #app.config.update (
+    #   SERVER_NAME=args.server)
+    #app.run()
+    app.run(host='0.0.0.0')
