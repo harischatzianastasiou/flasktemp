@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
         name='flasktemp',
         version='1.0.0',
-        description='contains some sample hello world code using Flask',
+        description='Shows the weather on a local webpage using Flask micro web framework',
         author='tchatzian',
         author_email='harischatzi1988@gmail.com',
         url='https://github.com/tchatzian/flasktemp',
